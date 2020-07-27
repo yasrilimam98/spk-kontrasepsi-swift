@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24B7C80024CF207B00AD151A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7C7FF24CF207B00AD151A /* AppDelegate.swift */; };
+		24B7C80224CF207B00AD151A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7C80124CF207B00AD151A /* SceneDelegate.swift */; };
+		24B7C80424CF207B00AD151A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7C80324CF207B00AD151A /* ContentView.swift */; };
+		24B7C80624CF207D00AD151A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B7C80524CF207D00AD151A /* Assets.xcassets */; };
+		24B7C80924CF207D00AD151A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B7C80824CF207D00AD151A /* Preview Assets.xcassets */; };
+		24B7C80C24CF207D00AD151A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B7C80A24CF207D00AD151A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24B7C7FC24CF207B00AD151A /* spk-kontrasepsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spk-kontrasepsi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B7C7FF24CF207B00AD151A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24B7C80124CF207B00AD151A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24B7C80324CF207B00AD151A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24B7C80524CF207D00AD151A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24B7C80824CF207D00AD151A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24B7C80B24CF207D00AD151A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24B7C80D24CF207D00AD151A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24B7C7F924CF207B00AD151A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B7C7F324CF207B00AD151A = {
+			isa = PBXGroup;
+			children = (
+				24B7C7FE24CF207B00AD151A /* spk-kontrasepsi */,
+				24B7C7FD24CF207B00AD151A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24B7C7FD24CF207B00AD151A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24B7C7FC24CF207B00AD151A /* spk-kontrasepsi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24B7C7FE24CF207B00AD151A /* spk-kontrasepsi */ = {
+			isa = PBXGroup;
+			children = (
+				24B7C7FF24CF207B00AD151A /* AppDelegate.swift */,
+				24B7C80124CF207B00AD151A /* SceneDelegate.swift */,
+				24B7C80324CF207B00AD151A /* ContentView.swift */,
+				24B7C80524CF207D00AD151A /* Assets.xcassets */,
+				24B7C80A24CF207D00AD151A /* LaunchScreen.storyboard */,
+				24B7C80D24CF207D00AD151A /* Info.plist */,
+				24B7C80724CF207D00AD151A /* Preview Content */,
+			);
+			path = "spk-kontrasepsi";
+			sourceTree = "<group>";
+		};
+		24B7C80724CF207D00AD151A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24B7C80824CF207D00AD151A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24B7C7FB24CF207B00AD151A /* spk-kontrasepsi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B7C81024CF207D00AD151A /* Build configuration list for PBXNativeTarget "spk-kontrasepsi" */;
+			buildPhases = (
+				24B7C7F824CF207B00AD151A /* Sources */,
+				24B7C7F924CF207B00AD151A /* Frameworks */,
+				24B7C7FA24CF207B00AD151A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spk-kontrasepsi";
+			productName = "spk-kontrasepsi";
+			productReference = 24B7C7FC24CF207B00AD151A /* spk-kontrasepsi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B7C7F424CF207B00AD151A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Devfx;
+				TargetAttributes = {
+					24B7C7FB24CF207B00AD151A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 24B7C7F724CF207B00AD151A /* Build configuration list for PBXProject "spk-kontrasepsi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24B7C7F324CF207B00AD151A;
+			productRefGroup = 24B7C7FD24CF207B00AD151A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B7C7FB24CF207B00AD151A /* spk-kontrasepsi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24B7C7FA24CF207B00AD151A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B7C80C24CF207D00AD151A /* LaunchScreen.storyboard in Resources */,
+				24B7C80924CF207D00AD151A /* Preview Assets.xcassets in Resources */,
+				24B7C80624CF207D00AD151A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B7C7F824CF207B00AD151A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B7C80024CF207B00AD151A /* AppDelegate.swift in Sources */,
+				24B7C80224CF207B00AD151A /* SceneDelegate.swift in Sources */,
+				24B7C80424CF207B00AD151A /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24B7C80A24CF207D00AD151A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B7C80B24CF207D00AD151A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24B7C80E24CF207D00AD151A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24B7C80F24CF207D00AD151A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24B7C81124CF207D00AD151A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"spk-kontrasepsi/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CYAN53Q9Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "spk-kontrasepsi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.container.swift.spk-kontrasepsi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24B7C81224CF207D00AD151A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"spk-kontrasepsi/Preview Content\"";
+				DEVELOPMENT_TEAM = 6CYAN53Q9Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "spk-kontrasepsi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.container.swift.spk-kontrasepsi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B7C7F724CF207B00AD151A /* Build configuration list for PBXProject "spk-kontrasepsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B7C80E24CF207D00AD151A /* Debug */,
+				24B7C80F24CF207D00AD151A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B7C81024CF207D00AD151A /* Build configuration list for PBXNativeTarget "spk-kontrasepsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B7C81124CF207D00AD151A /* Debug */,
+				24B7C81224CF207D00AD151A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B7C7F424CF207B00AD151A /* Project object */;
+}
