@@ -10,6 +10,8 @@ import SwiftUI
 
 struct HeaderView: View {
     
+    var header: Header
+    
 //    Animation
     
     @State private var showHeadline: Bool = false
@@ -24,7 +26,7 @@ struct HeaderView: View {
       
         ZStack{
         Text("Kontrasepsi")
-            Image("1")
+            Image(header.image)
             .resizable()
             .aspectRatio(contentMode: .fill)
             
@@ -34,12 +36,12 @@ struct HeaderView: View {
                     .frame(width:4)
             
                 VStack(alignment: .leading, spacing: 8){
-                Text("Kontrasepsi")
+                    Text(header.headline)
                     .font(.system(.title, design: .serif))
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .shadow(radius: 2)
-                Text("Alat kontrasepsi Suntik dan KONTAP")
+                    Text(header.subline)
                     .font(.footnote)
                     .lineLimit(2)
                     .multilineTextAlignment(.leading)
@@ -66,7 +68,7 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        HeaderView(header: headerData[1])
             .previewLayout(.sizeThatFits)
             .environment(\.colorScheme, .dark)
     }

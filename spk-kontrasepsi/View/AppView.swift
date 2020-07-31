@@ -11,24 +11,24 @@ import SwiftUI
 struct AppView: View {
     var body: some View {
         TabView {
-            HomeView()
-                .tabItem({
-                    Image(systemName: "book.fill")
-                    Text("Article")
-                })
             KontenView()
                 .tabItem({
-                    Image(systemName: "dial.fill")
-                    Text("Desicion")
+                    Image(systemName: "square.grid.2x2")
+                    Text("Dashboard")
                 })
-            ChatbotView()
+                ArtikelView()
                 .tabItem({
-                    Image(systemName: "bubble.left.and.bubble.right.fill")
-                    Text("ChatBot")
+                    Image(systemName: "book")
+                    Text("Article")
+                })
+            PakarView()
+                .tabItem({
+                    Image(systemName: "dial")
+                    Text("Desicion")
                 })
             AboutUsView()
                 .tabItem({
-                    Image(systemName: "shield.fill")
+                    Image(systemName: "shield")
                     Text("About us")
                 })
         }
